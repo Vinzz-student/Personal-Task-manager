@@ -4,7 +4,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/Personal-Task-Manager/',
-  build: {
-    outDir: 'docs'
-  }
 })
